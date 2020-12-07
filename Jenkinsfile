@@ -7,6 +7,12 @@ pipeline {
                 sh 'npm install' 
                 
             }
+        },
+        stage('Test') {
+            steps {
+                sh 'ng test --code-coverage --watch=false' 
+               
+            }
         }
     }
 }
