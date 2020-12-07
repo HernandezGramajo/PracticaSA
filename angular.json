@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "practicaSA"
+  "defaultProject": "practicaSA",
+  "cli": {
+    "analytics": "04c1768a-0290-49de-8e70-981ab7435858"
+  }
 }
