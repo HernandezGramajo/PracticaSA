@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'npm run ng test --code-coverage --watch=false' 
+                sh 'ng test --code-coverage --watch=false' 
                
             }
         }
