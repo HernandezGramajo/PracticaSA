@@ -39,4 +39,10 @@ describe('AppComponent', () => {
       const compiled = fixture.debugElement.nativeElement;
       expect(compiled.querySelector('h2').textContent).toContain('Practica 1');});
 
+      it('should render title in a h3 tag', () => {
+        const fixture = TestBed.createComponent(AppComponent);
+        fixture.detectChanges();
+        const compiled = fixture.debugElement.nativeElement;
+        expect(compiled.querySelector('h3').textContent).toContain('Practica 1 prueba de fallo');});
+
 });
